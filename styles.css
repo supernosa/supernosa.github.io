@@ -129,4 +129,21 @@ button{
     }
 }
 
+/* MOBILE VERSION */
+@media only screen and (max-width: 375px) {
+    .howto_box{
+        padding: 10px;
+    }
+
+    .howto_img {
+        max-width: 60%;
+        max-height: 60%;
+        border-radius: 8px;
+    }
+
+    .howto_title{
+        font-size: 19px;
+    }
+}
+
 
