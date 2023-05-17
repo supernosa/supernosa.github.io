@@ -1,0 +1,108 @@
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.head_text{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.inner_container{
+    display: flex;
+    gap: 25px;
+}
+
+.howto_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 763px;
+}
+
+.howto_box{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 16px;
+    background: lightgray;
+}
+
+.howto_img{
+    max-width: 146px;
+    border-radius: 16px;
+}
+
+.howto_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.netlify_form_container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: lightgray;
+    width: 380px;
+    border-radius: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    gap: 20px;
+}
+
+.form_field{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+input{
+    background: #D9D9D9;
+    border: 1.90761px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 11px;
+}
+
+button{
+    background: #61FF00;
+    border-radius: 38.1522px;
+    border: none;
+    padding: 11px;
+    cursor: pointer;
+}
+
+
