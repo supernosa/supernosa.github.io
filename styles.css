@@ -130,6 +130,23 @@ button{
     }
 }
 
+.back-link{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 0 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+.back-arrow{
+    max-height: 40px;
+}
+
+.back-title{
+    font-size: 2vw;
+}
+
 /* MOBILE VERSION */
 @media only screen and (max-width: 375px) {
     .howto_box{
